@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
+    <title>Fornecedor</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -18,10 +18,10 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="Observação.php">Observações</a></li>
+          <li><a href="Bancario.php">Dados Bancários</a></li>
+          <li><a href="Historico.php">Histórico</a></li>
+          <li><a href="Unidade.php">Conversão de Unidades</a></li>
         </ul>
       </nav>
     </header>
