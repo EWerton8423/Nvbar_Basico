@@ -11,7 +11,7 @@
 
 <style>
   body {
-    font-family: Arial, Arial, Helvetica, sans-serif
+    font-family: monospace, monospace, Helvetica, sans-serif
   }
 
   .content {
@@ -34,7 +34,7 @@
     margin-bottom: 15px;
     border: 1px solid #DDD;
     border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace, Helvetica, sans-serif;
     font-size: 16px;
   }
 
@@ -63,38 +63,6 @@
       </ul>
     </nav>
     <!-- INICIO DO NVBAR -->
-
-    <!-- INICIO DA PÁGINA DE FORNECEDOR -->
-    <section class="content">
-
-      <!-- COLOCANDO OS DADOS DO FORNECEDOR -->
-      <div class="contato">
-        <br>
-        <form class="form" method="POST" action="/">
-          <input class="field" name="codigo" placeholder="Codigo">
-
-          <select class="field" name="tipo_pessoa">
-            <option value="Fisica">Pessoa Física</option>
-            <option value="Juridica">Pessoa Jurídica</option>
-          </select>
-
-          <div class="row">
-          <input class="field" name="cnpjcpf" placeholder="CNPJ/CPF">
-          <input class="field" name="nome" placeholder="Nome Fantasia">
-          <input class="field" name="razaoSocial" placeholder="Razao Social">
-          <input class="field" name="endereco" placeholder="Endereço">
-          <input class="field" name="bairro" placeholder="Bairro">
-          <input class="field" name="cep" placeholder="CEP">
-          <input class="field" name="uf" placeholder="UF">
-          <input class="field" name="telefone" placeholder="Telefone">
-          </div>
-          
-          <input class="field" name="email" placeholder="Email">
-
-    </section>
-
-  </header>
-  <main></main>
   <script src="mobile-navbar.js"></script>
 </body>
 

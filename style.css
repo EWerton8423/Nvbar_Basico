@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-family: system-ui, -apple-system, Helvetica, monospace, sans-serif;
     background: #23232e;
     height: 8vh;
   }
@@ -109,5 +109,4 @@
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
-
 
